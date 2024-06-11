@@ -43,7 +43,7 @@ builder.Services.AddInfrastructureServices(builder.Configuration);
 - You can also delete the Infrastructure layer. If you do, replace the AddInfrastructureServices call in Program.cs with this.
 
 ```csharp
-builder.Services.AddAuthServices<AppDbContext>(configuration);
+builder.Services.AddAuthServices<AppDbContext>(builder.Configuration);
 ```
 
 ## Contributing

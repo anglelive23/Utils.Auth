@@ -25,7 +25,6 @@ Utils.Auth/
    ```sh
    git clone https://github.com/anglelive23/Utils.Auth.git
 
-
 Configure settings in appsettings.json.
 Build the solution in Visual Studio.
 

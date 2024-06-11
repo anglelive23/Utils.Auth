@@ -11,9 +11,13 @@
 ## Directory Structure
 
 Utils.Auth/
+
 ├── Utils.Auth.API/ # API to demonstrate how to use the library controllers and models
+
 ├── Utils.Auth/ # Main project containing the core logic
+
 ├── Utils.Core/ # Core utility models
+
 └── Utils.Infrastructure/ # Infrastructure services like database access and migrations
 
 ## Getting Started
@@ -21,8 +25,9 @@ Utils.Auth/
    ```sh
    git clone https://github.com/anglelive23/Utils.Auth.git
 
-   Build the solution in Visual Studio.
+
 Configure settings in appsettings.json.
+Build the solution in Visual Studio.
 
 ## Usage
 Integrate the library into your application by referencing the Utils.Auth project. Implement the necessary interfaces and configure the services in your startup class.

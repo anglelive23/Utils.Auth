@@ -36,6 +36,7 @@ In program.cs add
 
 ```csharp
 builder.Services.AddInfrastructureServices(builder.Configuration);
+```
 
 - Optionally, you can remove Utils.Auth.API as it demonstrates library usage.
 
@@ -43,6 +44,7 @@ builder.Services.AddInfrastructureServices(builder.Configuration);
 
 ```csharp
 builder.Services.AddAuthServices<AppDbContext>(configuration);
+```
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit pull requests.
